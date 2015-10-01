@@ -1,4 +1,4 @@
-package kr.ac.kookmin.shape;
+package kr.ac.embeded.kookmin.shape;
 
 public abstract class Shape {
 	protected Point center;
