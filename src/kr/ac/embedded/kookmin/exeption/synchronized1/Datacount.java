@@ -14,7 +14,7 @@ public class Datacount {
 	}
 	
 	public void addCntUntil3() {
-		synchronized (this) {
+		synchronized (this){
 			while (true) {
 				cnt++;
 				System.out.print(cnt + ", ");
